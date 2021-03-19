@@ -1,0 +1,73 @@
+body{
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.container{
+  margin: 50px 0;
+}
+.container .logo{
+  width: 125px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.container .logo img{
+  width: 100%;
+}
+.container .heroes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  margin: auto;
+  perspective: 500px;
+}
+.container .heroes .hero{
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 3px solid #666;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #000000;
+  transform: rotateX(10deg);
+  transition: 
+    transform 0.15s,
+    border 0.5s;
+}
+.container .heroes .hero:hover{
+  transform: scale(1.4) rotateX(-5deg);
+  border: 4px solid #000;
+  z-index: 1;
+}
+.container .heroes .hero .image{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+.container .heroes .hero:nth-child(1) .image{background-image: url("./images/lol.png");}
+.container .heroes .hero:nth-child(2) .image{background-image: url("./images/lol01.png");background-size: 95px;}
+.container .heroes .hero:nth-child(3) .image{background-image: url("./images/lol02.png");}
+.container .heroes .hero:nth-child(4) .image{background-image: url("./images/lol03.png");}
+.container .heroes .hero:nth-child(5) .image{background-image: url("./images/lol04.png");}
+.container .heroes .hero:nth-child(6) .image{background-image: url("./images/lol05.png");}
+.container .heroes .hero:nth-child(7) .image{background-image: url("./images/lol06.png");}
+.container .heroes .hero:nth-child(8) .image{background-image: url("./images/lol07.png");}
+.container .heroes .hero:nth-child(9) .image{background-image: url("./images/lol08.png");}
+.container .heroes .hero:nth-child(10) .image{background-image: url("./images/lol09.png");}
+
+.container .heroes .hero:nth-child(11) .image{background-image: url("./images/lol10.png");}
+.container .heroes .hero:nth-child(12) .image{background-image: url("./images/lol11.png");}
+.container .heroes .hero:nth-child(13) .image{background-image: url("./images/lol12.png");}
+.container .heroes .hero:nth-child(14) .image{background-image: url("./images/lol13.png");}
+.container .heroes .hero:nth-child(15) .image{background-image: url("./images/lol14.png");}
+.container .heroes .hero:nth-child(16) .image{background-image: url("./images/lol15.png");}
+.container .heroes .hero:nth-child(17) .image{background-image: url("./images/lol16.png");}
+.container .heroes .hero:nth-child(18) .image{background-image: url("./images/lol17.png");}
+.container .heroes .hero:nth-child(19) .image{background-image: url("./images/lol18.png");}
+.container .heroes .hero:nth-child(20) .image{background-image: url("./images/lol19.png");}
